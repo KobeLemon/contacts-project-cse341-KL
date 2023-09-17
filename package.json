@@ -1,0 +1,19 @@
+{
+  "name": "cse341-projects-kl",
+  "version": "1.0.0",
+  "description": "Repository for my CSE 341 Class Projects",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KobeLemon/cse341-projects-KL.git"
+  },
+  "author": "Kobe Lemon",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KobeLemon/cse341-projects-KL/issues"
+  },
+  "homepage": "https://github.com/KobeLemon/cse341-projects-KL#readme"
+}

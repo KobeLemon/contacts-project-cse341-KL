@@ -4,8 +4,8 @@
   "description": "Repository for my CSE 341 Class Projects",
   "main": "server.js",
   "scripts": {
-    "devStart": "nodemon server.js",
-    "startProd": "node server.js"
+    "devStart": "nodemon src/server.js",
+    "startProd": "node src/server.js"
   },
   "repository": {
     "type": "git",

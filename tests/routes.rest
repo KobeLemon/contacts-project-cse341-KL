@@ -1,0 +1,38 @@
+// LOCALHOST
+@hostname = http://localhost:3000
+
+### Get Home Page
+GET {{hostname}}
+
+### Get all users
+GET {{hostname}}/users
+
+### Get contact by id
+GET {{hostname}}/users/65068ed3ce661403440a872a
+
+### Create Contact
+POST {{hostname}}/users HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "TestFName",
+    "lastName": "TestLName",
+    "email": "testemail@test.com",
+    "favoriteColor": "purple",
+    "birthday": "5/9/2006"
+}
+
+### Update Contact -- change whatever element below that you need to change
+PUT {{hostname}}/users/65068ed3ce661403440a872a HTTP/1.1
+Content-Type: application/json
+
+{
+    "firstName": "Jane",
+    "lastName": "Doe",
+    "email": "janedoe@aol.com",
+    "favoriteColor": "Red",
+    "birthday": "1/2/1975"
+}
+
+### DELETE Contact -- change id to whatever you need to delete
+DELETE {{hostname}}/users/<IDHERETODELETE>
